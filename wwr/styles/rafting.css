@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #ECF8F8; /* azure */
+    --secondary-color: #EEE4E1; /* isabelline*/
+    --accent1-color: #E7D8C9; /* almond */
+    --accent2-color: #E6BEAE; /* pale dogwood */
+    --text-color: #B2967D; /* lion */
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ECF8F8; 
+    max-width: 1600px; /* Set a maximum width for the page */
+    margin: 0 auto /*Center the wrapper*/
+}
+
+/*styling the headings and paragraph elements.*/
+h1 {
+    color: #E6BEAE; 
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 5rem;
+    border-radius: 10px;
+}
+
+p {
+    color: #000000; 
+    margin-bottom: 20px;
+}
+
+/* Remove the underlines from the social media links. */
+a {
+    text-decoration: none; /* Remove underline from links */   
+}
+
+header img {
+    width: 150px;
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links of header */
+    color: #6d5845; 
+    margin: 0 15px;
+}
+
+/*The class of hero is positioned relative*/
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* The h1 heading and article text are positioned absolutely.*/
+.hero h1, .hero article {
+    position: absolute;
+}
+
+.hero h1 {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.hero article {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background-color: rgba(236, 248, 248, 0.8); 
+    padding: 20px;
+}
+
+.hero article img {
+    float: right;
+    width: 30%;
+    margin-left: 20px;
+    height: auto;
+}
+
+section h2 {
+    color: #B2967D; 
+    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+section p {
+    color: #B2967D;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+section img {
+    width: auto;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: left;
+    padding: 10px;
+}
+
+footer nav a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer nav a {
+    text-decoration: none;
+}
