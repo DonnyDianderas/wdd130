@@ -175,19 +175,24 @@ section{
 
 .gallery {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .gallery-item {
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .gallery-item img {
-    width: 80%;
-    height: 50%;
+    width: 50%;
+    height: auto;
 }
 
-.gallery-item p {
+.gallery-item figcaption {
     color: #6d5845;
     font-size: 1rem;
     white-space: nowrap;  
