@@ -188,7 +188,7 @@ section{
 }
 
 .gallery-item img {
-    width: 50%;
+    width: 80%;
     height: auto;
 }
 
@@ -224,4 +224,23 @@ footer nav a {
     text-decoration: none;
     border: none;
     
+}
+
+/* To Contact Info in page Contact Us*/
+.contact-container {
+    display: flex;                   /* Flexbox for horizontal layout */
+    justify-content: space-between;  /* space between elements */
+    align-items: flex-start;         /* Align to start */
+    margin-bottom: 20px;
+    gap: 20px;                       
+}
+
+.contact-info {
+    flex: 1;                         /* Occupies available space */
+}
+
+.map {
+    width: 320px;                    
+    flex-shrink: 0;                  /* Prevents the map from shrinking on small screens */
+    height: auto;
 }

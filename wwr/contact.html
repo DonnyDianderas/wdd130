@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="contact us" content="Website development">
+    <meta name="author" content="Whitewater Rafting Peru">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="" width="100">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+          </nav>
+    </header>
+
+    <main>
+
+      <h1>Contact Us</h1>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>White Water Rafting Peru</h2>
+          <p>Address: Av. Universitaria 7858 c/ Av. Belaunde</p>
+          <p>Phone: 999-999-9999</p>
+          <p>Email: <a href="mailto">wwraftingperu@raftingperu.com</a></p>
+        </div>
+        <div class="map">
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3282.499509871132!2d-77.05656671870004!3d-11.934861499678709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1729351821766!5m2!1ses!2spe"
+           width="320" height="240";  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <section class="adventure-section">
+        <h2>Meet The Guides</h2>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="images/Marco.jpg" alt="Marco" width="100">
+            <figcaption>Marco</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gabriela.jpg" alt="Gabriela" width="100">
+            <figcaption>Gabriela</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/Sam.jpg" alt="Sam" width="100">
+            <figcaption>Sam</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/Gloria.JPG" alt="Gloria" width="100">
+            <figcaption>Gloria</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/Nico.JPG" alt="Nico" width="100">
+            <figcaption>Nico</figcaption>
+          </figure>
+        </div>
+      </section>
+      
+      <section>
+        <h2>Contact Form</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <fieldset>
+                <legend>Purpose of your message:</legend>
+                <label>
+                    <input type="radio" name="purpose" value="general_inquiry" required>
+                    General Inquiry
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="reservation_question">
+                    Reservation Question
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="website_suggestion">
+                    Website Suggestion
+                </label>
+            </fieldset>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label>
+                <input type="checkbox" name="subscribe" value="yes">
+                Please subscribe me to the monthly newsletter
+            </label>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>      
+          
+    </main>
+
+    <!--Footer Section-->  
+    <footer>
+        <p>&copy; 2024 Whitewater Rafting Perú. Created by Donny Dianderas.</p>
+        <nav class="sociallinks">
+          <a href="htpps://facebook.com">
+            <img src="images/facebook.svg" alt="Facebook">
+          </a>
+          <a href="htpps://twitter.com">
+            <img src="images/twitter.svg" alt="Twitter">
+          </a>
+          <a href="htpps://instagram.com">
+            <img src="images/instagram.svg" alt="Instagram">
+          </a>
+          <p>
+            <a href="https://app.moqups.com/2pFlFzdIOoNf7e2LoVqUs5H6RsBSebrx/view/page/ad64222d5">View Moqups</a>
+          </p>
+        </nav>
+        
+          
+        
+    </footer>
+    
+</body>
+</html>
