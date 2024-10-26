@@ -92,7 +92,7 @@ a {
 
 .hero h1 {
     top: 1rem;
-    left: 33%;   
+    left: 25%;   
 }
 
 .hero article {
@@ -243,4 +243,213 @@ footer nav a {
     width: 320px;                    
     flex-shrink: 0;                  /* Prevents the map from shrinking on small screens */
     height: auto;
+}
+/* Newsletter Section */
+.newsletter {
+    background-color: #EEE4E1; /* Matches other section colors */
+    border: 1px solid #000000;
+    padding: 2rem;
+    margin: 1rem auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+.newsletter h2 {
+    color: #411f03; /* Matches heading colors */
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.newsletter label {
+    color: #6d5845;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #6d5845;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: #E6BEAE; 
+    color: #411f03;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer; 
+}
+
+.newsletter button:hover {
+    background-color: #b2967d; 
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #E7D8C9; /* Accent color to stand out */
+    border: 1px solid #000000;
+    padding: 2rem;
+    margin: 1rem auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+.cta h2 {
+    color: #411f03;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cta p {
+    color: #6d5845;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background-color: #E6BEAE; /* Matches other button colors */
+    color: #411f03;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #b2967d; /* Slightly darker on hover */
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    background-color: #EEE4E1;
+    margin: 1rem auto;
+    max-width: 1200px;
+    border: 1px solid #000000;
+}
+
+.about h2 {
+    text-align: center;
+    color: #411f03;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 1.5rem; /* Space between grid items */
+}
+
+.grid-item {
+    background-color: #ECF8F8;
+    border: 1px solid #000000;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: 1px solid #000000;
+}
+
+.grid-item h3 {
+    color: #411f03;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid-item p {
+    color: #6d5845;
+    font-size: 1rem;
+}
+
+
+/* Trips Section */
+.trips {
+    padding: 2rem;
+    background-color: #EEE4E1;
+    border: 1px solid #000000;
+    margin: 1rem auto;
+    max-width: 1200px;
+}
+
+.trips h2, .trips h3 {
+    text-align: center;
+    color: #411f03;
+    margin-bottom: 1rem;
+}
+
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.trip-item {
+    background-color: #ECF8F8;
+    border: 1px solid #000000;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.trip-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.trip-item h3 {
+    color: #411f03;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.trip-item p {
+    color: #6d5845;
+    font-size: 1rem;
+}
+
+/* Trip Information Table */
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem auto;
+}
+
+.trip-table th, .trip-table td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.trip-table th {
+    background-color: #E7D8C9;
+    color: #411f03;
+}
+
+.trip-table td {
+    background-color: #ECF8F8;
+    color: #6d5845;
 }
